@@ -3,33 +3,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:orientation="vertical"
     tools:context="com.example.du.inclassassignment09_jiahuid.MainActivity">
 
     <TextView
-        android:id="@+id/text_name"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text" />
-
-    <TextView
-        android:id="@+id/text_age"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:inputType="text" />
-
-    <CheckBox
-        android:id="@+id/text_grad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:hint="Is graduated?"
-        android:textSize="15sp" />
+        android:text="Hello World" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="set"
+        android:text="Set Person" />
+
+
+    <Button
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:onClick="add"
         android:text="Add Person" />
-    />
+
 
 </LinearLayout>
